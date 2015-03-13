@@ -32,9 +32,21 @@ t.append(child) //Enter transition
 r.remove(child) //Leave Transition
 ```
 
+## Installation
+
+`npm install transify --save`
+
+
 ## API
 
 #### `transify(element, opts)`
+
+`element`: container having child nodes to be transitioned.
+
+Valid methods:
+
+- `append`: appends the node and sets an `enter` transition.
+- `remove`: removes the node and sets a `leave` transition.
 
 Valid options:
 
