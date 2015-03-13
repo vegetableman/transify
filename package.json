@@ -1,6 +1,6 @@
 {
   "name": "transify",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Add enter and leave transitions to DOM Nodes.",
   "main": "index.js",
   "scripts": {
