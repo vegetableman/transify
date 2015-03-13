@@ -14,6 +14,11 @@
   "dependencies": {
     "transitionend-property": "0.0.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vegetableman/transify.git"
+  },
+  "author": "vegetableman <vegetablebot@gmail.com>",
   "devDependencies": {
     "add-event-listener": "0.0.1",
     "babelify": "^5.0.3",
@@ -22,7 +27,15 @@
     "browserify": "^3.30.1",
     "domify": "^1.3.2",
     "domready": "^1.0.7",
-    "insert-css": "^0.2.0",
-    "watchify": "^2.4.0"
-  }
+    "insert-css": "^0.2.0"
+  },
+  "keywords": [
+    "enter",
+    "leave",
+    "transition",
+    "css",
+    "ng-animate",
+    "animate",
+    "ReactCSSTransitionGroup"
+  ]
 }
