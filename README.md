@@ -3,15 +3,6 @@ Add enter and leave transitions to DOM Nodes, inspired by ReactCSSTransitionGrou
 
 ## Usage
 
-```js
-const t = transify(document.querySelector('.element'), {
-  transitionName: 'example'
-})
-const child = document.createElement('div')
-t.append(child) //Enter transition
-r.remove(child) //Leave Transition
-```
-
 ```css
 .example-enter {
   opacity: 0.01;
@@ -30,6 +21,15 @@ r.remove(child) //Leave Transition
 .example-leave.example-leave-active {
   opacity: 0.01;
 }
+```
+
+```js
+const t = transify(document.querySelector('.element'), {
+  transitionName: 'example'
+})
+const child = document.createElement('div')
+t.append(child) //Enter transition
+r.remove(child) //Leave Transition
 ```
 
 ## API
