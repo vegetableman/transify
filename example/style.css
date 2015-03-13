@@ -1,0 +1,29 @@
+.example {
+    border: 1px solid #DDD;
+    margin: 20px 0;
+    padding: 20px;
+    width: 200px;
+}
+
+.child {
+    border: 1px solid #DDD;
+    padding: 10px;
+}
+
+.example-enter {
+    opacity: 0.01;
+    transition: opacity .5s ease-in;
+}
+
+.example-enter.example-enter-active {
+    opacity: 1;
+}
+
+.example-leave {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+}
