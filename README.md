@@ -51,7 +51,7 @@ Valid methods:
 Valid options:
 
 - `transitionName`: Name of the transition on which enter, leave and active states would be based on.
-- `tick`: Interval after which to set the active class (default: 7)
+- `tick`: Interval after which to set the active class (default: 17)
 
 ## Example
 
